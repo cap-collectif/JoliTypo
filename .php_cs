@@ -15,10 +15,6 @@ return PhpCsFixer\Config::create()
     ->setRules(array(
         '@Symfony' => true,
         'header_comment' => array('header' => $header),
-        'binary_operator_spaces' => array(
-            'align_double_arrow' => true,
-            'align_equals' => true,
-        ),
         'array_syntax' => array('syntax' => 'long'),
         'ordered_imports' => true
     ))
